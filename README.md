@@ -1,16 +1,18 @@
-<h1> Lesson 18.2: Machine Learning and Artificial Intelligence  </h1>
+<h1> Lesson 2.5: Network Troubleshooting  </h1>
 <h2> Summary</h2>
 
-<p1>In this lesson students will examine the emerging technology of AI and machine learning and how it relates to the cyber landscape..</p1>
+<p1>By the end of this module, learners should be able to describe the essential components of a network, including devices (routers, switches, hubs, etc.), topologies, and common protocols. This foundational knowledge will serve as the basis for identifying where potential issues arise.</p1>
 <br>
 
 <h2>Learning Objectives</h2>
 <ul>
-<li>Contrast Narrow AI and AGI.</li>
+<li>Recognize Common Network Issues and Their Solutions.</li>
   <br>
-<li>Know cybersecurity applications of AI and Machine Learning.</li><br>
+<li>Develop a Systematic Troubleshooting Methodology.</li><br>
+
+<li>Implement Preventative Measures and Best Practices.</li><br>
   
-<li>Give an example of Narrow AI.</li>
+<li>Become proficient in using a variety of network diagnostic tools such as ping, traceroute, netstat, Wireshark, and others.</li>
 
 </ul>
 
@@ -19,16 +21,27 @@
 <ul>
 <li>
 
-  **Artificial Intelligence - AI**</li>
+  **Ping**</li>
   
 <li>
 
-**Machine Learning**</li>
+**Wireshark**</li>
   
 <li>
   
-**Algorithms**</li>
+**Traceroute**</li>
+
+<li>
+
+**Methodology**</li>
   
+<li>
+  
+**Netstat**</li>
+
+<li>
+  
+**OSI Model**</li>
 
 </ul>
 
@@ -39,101 +52,145 @@
 <br>
 
 
-<h2>What is Machine Learning?</h2>
+<h2>Introduction</h2>
+Today, we'll delve deep into the world of network troubleshooting. As our reliance on networks grows, so does ensuring they run smoothly. Whether you're a budding IT professional or just curious about how networks function, today's lecture will equip you with the knowledge and skills to approach network issues methodically.
+
+<h2>Understanding Network Fundamentals and Architecture</h2>
+
+Before we can fix a problem, we need to understand the system. Every network, regardless of its size or complexity, is built upon foundational components:
+
+Devices are tangible components like routers, switches, and hubs. Each plays a unique role in directing, transmitting, or amplifying data.
+
 <ul>
-	<li>Machine learning is an application of artificial intelligence (AI) that provides systems the ability to automatically learn and improve from experience without being explicitly programmed. Machine learning focuses on the development of computer programs that can access data and use it to learn for themselves. </li><br>
-	<li>The process of learning begins with observations or data, such as examples, direct experience, or instruction, in order to look for patterns in data and make better decisions in the future based on the examples that we provide.  
-</li><br>
-	<li>The primary aim is to allow the computers to learn automatically without human intervention or assistance and adjust actions accordingly. But, using the classic algorithms of machine learning, text is considered as a sequence of keywords; instead, an approach based on semantic analysis mimics the human ability to understand the meaning of a text. </li><br>
-	
+	<li><h4><ins>Topologies:</ins></li></h4>
+	<ul>
+		<li>This refers to the physical or logical layout of a network. The structure can influence where and how issues arise, whether it's a star, ring, or mesh topology.</li>
+	</ul>
+	<li><h4><ins>Protocols:</ins></li></h4>
+	<ul>
+		<li> These are the rules that govern data transmission. Familiar names like TCP/IP or HTTP dictate how data packets are sent, received, and interpreted.</li>
+	</ul>
 </ul>
 
-<h2>Machine Learning Algorithms</h2>
+
+<h2>Mastering Diagnostic Tools and Software</h2>
+Network professionals have tools like a doctor using a stethoscope or X-ray machine. Some of the most essential include:
 
 <ul>
-	<li>Machine learning algorithms are often categorized as <ins>supervised or unsupervised</ins>. </li><br>
-	<li><ins>Supervised machine:</ins> 
-			<ul>
-			<li>Learning algorithms can apply what has been learned in the past to new data using labeled examples to predict future events. Starting from the analysis of a known training dataset, the learning algorithm produces an inferred function to make predictions about the output values. The system is able to provide targets for any new input after sufficient training. The learning algorithm can also compare its output with the correct, intended output and find errors in order to modify the model accordingly.</li>
-		</ul>
+	<li><h4><ins>Ping:</ins></h4></li>
+	<ul>
+		<li>Tests the reachability of a host and measures the roundtrip time for packets.
+		</li>
+	</ul>
+	<li><h4><ins>Traceroute:</ins></h4></li>
+	<ul>
+		<li>Displays the path that a packet takes to reach a destination. 
+		</li>
+	</ul>
+	<li><h4><ins>Netstat:</ins></h4></li>
+	<ul>
+		<li>Provides network statistics and information about current network connections. 
+		</li>
+	</ul>
+	<li><h4><ins>Wireshark:</ins></h4></li>
+	<ul>
+		<li>A packet analyzer that lets you see what's happening on your network at a microscopic level.
+		</li>
+	</ul>
+</ul>
 
-<li><ins>Unsupervised machine:</ins> 
-	
+Each tool provides a unique lens to view the network; mastering them is crucial for effective troubleshooting.
+
+<h2>Systematic Troubleshooting Methodology</h2>
+
+When faced with a network issue, jumping in and making changes is tempting. However, a systematic approach is critical: <br>
+
 <ul>
-		<li>Learning algorithms are used when the information used to train is neither classified nor labeled. Unsupervised learning studies how systems can infer a function to describe a hidden structure from unlabeled data. The system doesn’t figure out the right output, but it explores the data and can draw inferences from datasets to describe hidden structures from unlabeled data.</li>
-		</ul
- <li><ins>Semi-supervised machine:</ins> 
-	 <ul>
-		 <li>Learning algorithms fall somewhere in between supervised and unsupervised learning, since they use both labeled and unlabeled data for training – typically a small amount of labeled data and a large amount of unlabeled data. The systems that use this method are able to considerably improve learning accuracy. Usually, semi-supervised learning is chosen when the acquired labeled data requires skilled and relevant resources in order to train it / learn from it. Otherwise, acquiring unlabeled data generally doesn’t require additional resources.</li>
-	 </ul>
- </li>
-<li><ins>Reinforcement machine</ins>
+	<li>1. Identify Symptoms: Gather as much information as possible before anything else. </li>
 	<br>
 	<ul>
-		<li>Learning algorithms is a learning method that interacts with its environment by producing actions and discovers errors or rewards. Trial and error search and delayed reward are the most relevant characteristics of reinforcement learning.</li><br>
+		<li>Are certain users affected? </li><br>
+		<li>Is it a specific type of traffic or application?</li><br>
 	</ul>
-	
-<li>This method allows machines and software agents to automatically determine the ideal behavior within a specific context in order to maximize its performance. Simple reward feedback is required for the agent to learn which action is best; this is known as the reinforcement signal. </li><br>
-<li>Machine learning enables analysis of massive quantities of data. While it generally delivers faster, more accurate results in order to identify profitable opportunities or dangerous risks, it may also require additional time and resources to train it properly. Combining machine learning with AI and cognitive technologies can make it even more effective in processing large volumes of information.</li>
- </ul>
-
-
- <h2>What is Artificial Intelligence?</h2>
- <ul>
-	 <li>Artificial intelligence (AI) is a wide-ranging branch of computer science concerned with building smart machines capable of performing tasks that typically require human intelligence. </li> <br>
-	 <li>AI is an interdisciplinary science with multiple approaches, but advancements in machine learning and deep learning are creating a paradigm shift in virtually every sector of the tech industry. </li><br>
-	 <li>The major limitation in defining AI as simply "building machines that are intelligent" is that it actually doesn't </li><br>
-	 <li>While these definitions may seem abstract to the average person, they help focus the field as an area of computer science and provide a blueprint for infusing machines and programs with machine learning and other subsets of artificial intelligence. AI falls under two broad categories: </li><br>
-	 <li>Narrow AI: Sometimes referred to as "Weak AI," this kind of artificial intelligence operates within a limited context and is a simulation of human intelligence. Narrow AI is often focused on performing a single task extremely well and while these machines may seem intelligent, they are operating under far more constraints and limitations than even the most basic human intelligence. </li><br>
-	 <li>Artificial General Intelligence (AGI): AGI, sometimes referred to as "Strong AI," is the kind of artificial intelligence we see in films like robots androids. AGI is a machine with general intelligence and, much like a human being, it can apply that intelligence to solve any problem. </li>
- </ul>
-
-
-<h2>Machine Learning and Cybersecurity</h2>
-It’s important to understand that machine learning is not a panacea, but it can provide a great deal of support to a cybersecurity or IT team. While ML may have a long way to go before it can be used for threat detection on its own without human intervention, there are many tasks it can handle to level up security. <br>
-
-<h3>Some benefits of ML include:</h3>
-
-<ul>
-	<li><ins>Classification</ins> 
-		
-<ul>
-  <li>Programs classify data based on predetermined parameters.</li>
-  </ul>
-  
-<li><ins>Clustering</ins>
- <ul>
-  <li>For data that doesn’t fit preset parameters, ML groups data based on their similarities or anomalies.</li>
-  </ul>
-	<li><ins>Recommendations</ins> 
-		<ul>
-  <li>Programs learn from past choices, inputs and associations to recommend approaches and decisions.</li>
-  </ul>
-	<li><ins>Generative frameworks</ins>
-		<ul>
-  <li>Based on past data inputs, programs generate possibilities that can be applied to data that hadn’t encountered those specific inputs before.</li>
-  </ul>
-	<li><ins>Predictions</ins> 
-		<ul>
-  <li>Programs forecast based on data sets and past outcomes.</li>
-		</ul>
+	<li>2. Isolate the Problem: Narrow down the cause. </li>
+	<br>
+	<ul>
+		<li>Is it a hardware failure? </li><br>
+		<li>A software glitch? </li><br>
+		<li>Or a misconfiguration?</li><br>
+	</ul>
+	<li>3. Implement Solutions: Once the root cause is identified, apply the necessary fix, whether replacing a faulty cable, updating software, or tweaking configurations.</li>
 </ul>
+
+
+<h2>Recognizing Common Network Issues</h2>
+
+Experience teaches us that specific issues crop up more frequently than others:
+
+<ul>
+	<li><h4><ins>IP Conflicts:</ins></h4></li>
+	<ul>
+		<li>When two devices on the same network are assigned the same IP address.</li>
+	</ul>
+	<li><h4><ins>DNS Issues: </ins></h4></li>
+	<ul>
+		<li>Problems resolving domain names to IP addresses can prevent websites from loading.  </li>
+	</ul>
+	<li><h4><ins>Connectivity Losses: </ins></h4></li>
+	<ul>
+		<li>This can be due to many reasons, from physical cable damages to router malfunctions. </li>
+	</ul>
+	<li><h4><ins>Slow Performance:</ins></h4></li>
+	<ul>
+		<li>Often due to bandwidth limitations, high network traffic, or even malware.  </li>
+	</ul>
+	<li><h4><ins>Security Breaches: </ins></h4></li>
+	<ul>
+		<li>Unauthorized access or attacks on the network.</li>
+	</ul>
+</ul>
+
+By recognizing the signs of these common issues, you can often predict and prevent them from escalating.
+
+
+<h2>Implementing Preventative Measures</h2>
+As the saying goes, "An ounce of prevention is worth a pound of cure." In the realm of networks:
+<ul>
+	<li><h4><ins>Regular Updates: </ins></h4></li>
+	<ul>
+		<li>Ensure all devices and software are up-to-date. This not only provides new features but often patches known vulnerabilities.</li>
+	</ul>
+	<li><h4><ins>Backups:</ins></h4></li>
+	<ul>
+		<li>Regularly back up configurations and critical data. In the event of a failure, this can drastically reduce recovery time.  </li>
+	</ul>
+	<li><h4><ins>Monitoring:</ins></h4></li>
+	<ul>
+		<li>Use tools to monitor network traffic, performance, and anomalies constantly. This proactive approach can alert you to issues before they become critical.</li>
+	</ul>
+</ul>
+
+
+
 
 
 
 <h2>Conclusion</h2>
 
-AI and ML are becoming integral to cybersecurity, and already are in many ways. While they can be used at different levels and capacities, there are algorithms and techniques that can make an organization's security run more smoothly and free up a security team’s time for other important tasks.
+Network troubleshooting is as much an art as it is a science. With a solid understanding of network fundamentals, mastery of diagnostic tools, a systematic approach, and a proactive mindset, you'll be well-equipped to tackle any network challenge that comes your way. Remember, in the world of networks, knowledge truly is power. Happy troubleshooting!
 
 
 
 <h2> Presentation</h2>
 
-<a href="https://docs.google.com/presentation/d/1DOIEpOQXTDK7qWWfVAHIWJN1cl16HsN2/edit?usp=sharing&ouid=110228847857413878764&rtpof=true&sd=true"> Blockchain and Cryptocurrency</a>
+
 
 
 <h2> Hands-On Labs</h2>
 
-<a href = "https://drive.google.com/file/d/1Vw2j5EedXWBvHjhGMm0xyMLyopgPtZZn/view?usp=sharing"> The Blockchain Game </a>
 
 <h2> Additional Resources</h2>
+
+<a href="https://www.comptia.org/content/guides/a-guide-to-network-troubleshooting">A Guide to Network Troubleshooting</a> - Basic Steps, Tips and Tools. <br>
+
+<a href="https://www.techtarget.com/searchnetworking/answer/What-are-the-3-most-common-network-issues-to-troubleshoot">Most Common Network Issues </a> - Slow network speeds, weak Wi-Fi signals and damaged cabling are just some of the most common network connection issues that IT departments need to troubleshoot.
