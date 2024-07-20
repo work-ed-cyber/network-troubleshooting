@@ -47,21 +47,21 @@
 
 <h2>NICE Framework KSAs</h2>
 <ul>
-<li>K0001 - Knowledge of computer networking concepts, protocols, and network security methodologies.</li>
+<li>K0001: Knowledge of computer networking concepts, protocols, and network security methodologies.</li>
 <br>
-<li>K0010 - Knowledge of communication methods, principles, and ideas that support the network infrastructure.</li>
+<li>K0010: Knowledge of communication methods, principles, and ideas that support the network infrastructure.</li>
 <br>
-<li>K0011 - Knowledge of capabilities and applications of network equipmentK0029	Knowledge of the organization's Local and Wide Area Network connections.</li>
+<li>K0011: Knowledge of capabilities and applications of network equipmentK0029	Knowledge of the organization's Local and Wide Area Network connections.</li>
 <br>
-<li>K0034 - Knowledge of network services and protocol interactions that provide network communications.</li>
+<li>K0034: Knowledge of network services and protocol interactions that provide network communications.</li>
 <br>
-<li>K0057 - Knowledge of network hardware devices and functions.</li>
+<li>K0057: Knowledge of network hardware devices and functions.</li>
 <br>
-<li>K0061 - Knowledge of how traffic flows across the network</li>
+<li>K0061: Knowledge of how traffic flows across the network</li>
 <br>
-<li>K0111 - Knowledge of network tools</li>
+<li>K0111: Knowledge of network tools</li>
 <br>
-<li>K0113 - Knowledge of different types of network communication</li>
+<li>K0113: Knowledge of different types of network communication</li>
 </ul>
 
 
@@ -189,15 +189,29 @@ As the saying goes, "An ounce of prevention is worth a pound of cure." In the re
 </ul>
 
 
-
-
-
-
 <h2>Conclusion</h2>
 
 Network troubleshooting is as much an art as it is a science. With a solid understanding of network fundamentals, mastery of diagnostic tools, a systematic approach, and a proactive mindset, you'll be well-equipped to tackle any network challenge that comes your way. Remember, in the world of networks, knowledge truly is power. Happy troubleshooting!
 
+<h2>Definitions</h2>
+<ul>
+<li><b>Ping:</b> A network utility that tests connectivity between two devices by sending ICMP Echo Request packets and measuring the response time.<br>
+<br>
 
+<li><b>Wireshark:</b> A network protocol analyzer tool that captures and inspects data packets traveling across a network for troubleshooting and analysis.<br>
+<br>
+
+<li><b>Traceroute:</b> A network diagnostic tool that traces the path data packets take from one device to another, showing each hop along the way.<br>
+<br>
+
+<li><b>Methodology:</b> A systematic approach or set of methods used to achieve a particular goal or perform a task, often including best practices and procedures.<br>
+<br>
+
+<li><b>Netstat:</b> A command-line network utility that displays network connections, routing tables, interface statistics, and other network-related information.<br>
+<br>
+
+<li><b>OSI Model:</b> A conceptual framework with seven layers that standardizes the functions of a telecommunication or computing system to support interoperability and network communication.
+</ul>
 
 <h2> Presentation</h2>
 
@@ -206,7 +220,7 @@ Network troubleshooting is as much an art as it is a science. With a solid under
 
 <h2> Hands-On Labs</h2>
 
-
+<h2>Games</h2>
 <h2> Additional Resources</h2>
 
 <a href="https://www.comptia.org/content/guides/a-guide-to-network-troubleshooting">A Guide to Network Troubleshooting</a> - Basic Steps, Tips and Tools. <br>
