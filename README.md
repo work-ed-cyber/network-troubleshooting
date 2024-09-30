@@ -220,6 +220,7 @@ Network troubleshooting is as much an art as it is a science. With a solid under
 
 <h2> Hands-On Labs</h2>
 <a href="https://github.com/work-ed-cyber/2.5---easy/blob/main/README.md"> Hands-On Network Troubleshooting Lab </a> - Easy
+<a href="https://github.com/work-ed-cyber/2.5-medium"> Research and Report on Network Troubleshooting </a> - Medium
 
 <h2>Games</h2>
 <h2> Additional Resources</h2>
