@@ -214,8 +214,7 @@ Network troubleshooting is as much an art as it is a science. With a solid under
 </ul>
 
 <h2> Presentation</h2>
-
-
+<a href="https://docs.google.com/presentation/d/1AtRcWOtLS4gespLEwxK3QqfAo8OipJpJ/edit?usp=sharing&ouid=110228847857413878764&rtpof=true&sd=true"> Network Troubleshooting </a>
 
 
 <h2> Hands-On Labs</h2>
