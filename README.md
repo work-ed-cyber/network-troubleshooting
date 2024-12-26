@@ -223,6 +223,9 @@ Network troubleshooting is as much an art as it is a science. With a solid under
 <br>
 <a href="https://github.com/work-ed-cyber/2.5-medium"> Research and Report on Network Troubleshooting </a> - Medium
 
+<a href="https://docs.google.com/presentation/d/1cyeh7J2yLSvAXv9MipSZEC2eAPjT_1sx/edit#slide=id.p1"> Network Software Tools Lab </a> - Hard <br>
+
+<br>
 <h2>Games</h2>
 <h2> Additional Resources</h2>
 
