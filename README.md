@@ -221,14 +221,12 @@ Network troubleshooting is as much an art as it is a science. With a solid under
 <a href="https://github.com/work-ed-cyber/2.5---easy/blob/main/README.md"> Hands-On Network Troubleshooting Lab </a> - Easy <br>
 
 <br>
-<a href="https://github.com/work-ed-cyber/2.5-medium"> Research and Report on Network Troubleshooting </a> - Medium
+<a href="https://github.com/work-ed-cyber/2.5-medium"> Research and Report on Network Troubleshooting </a> - Medium<br>
+<br>
 
-<a href="https://docs.google.com/presentation/d/1cyeh7J2yLSvAXv9MipSZEC2eAPjT_1sx/edit#slide=id.p1"> Network Software Tools Lab </a> - Hard <br>
+<a href="https://docs.google.com/presentation/d/1cyeh7J2yLSvAXv9MipSZEC2eAPjT_1sx/edit#slide=id.p1"> Network Software Tools Lab </a> - Hard 
 
 <br>
 <h2>Games</h2>
 <h2> Additional Resources</h2>
 
-<a href="https://www.comptia.org/content/guides/a-guide-to-network-troubleshooting">A Guide to Network Troubleshooting</a> - Basic Steps, Tips and Tools. <br>
-
-<a href="https://www.techtarget.com/searchnetworking/answer/What-are-the-3-most-common-network-issues-to-troubleshoot">Most Common Network Issues </a> - Slow network speeds, weak Wi-Fi signals and damaged cabling are just some of the most common network connection issues that IT departments need to troubleshoot.
