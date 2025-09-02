@@ -71,7 +71,7 @@
 
 
 <h2>Introduction</h2>
-Today, we'll delve deep into the world of network troubleshooting. As our reliance on networks grows, so does ensuring they run smoothly. Whether you're a budding IT professional or just curious about how networks function, today's lecture will equip you with the knowledge and skills to approach network issues methodically.
+Today, we'll delve deep into the world of network troubleshooting. As our reliance on networks grows, so does the need to ensure they run smoothly. Whether you're a budding IT professional or just curious about how networks function, today's lecture will equip you with the knowledge and skills to approach network issues methodically.
 
 <h2>Understanding Network Fundamentals and Architecture</h2>
 
@@ -92,12 +92,12 @@ Devices are tangible components like routers, switches, and hubs. Each plays a u
 
 
 <h2>Mastering Diagnostic Tools and Software</h2>
-Network professionals have tools like a doctor using a stethoscope or X-ray machine. Some of the most essential include:
+Network professionals have tools like a doctor using a stethoscope or an X-ray machine. Some of the most essential include:
 
 <ul>
 	<li><h4><ins>Ping:</ins></h4></li>
 	<ul>
-		<li>Tests the reachability of a host and measures the roundtrip time for packets.
+		<li>Tests the reachability of a host and measures the round-trip time for packets.
 		</li>
 	</ul>
 	<li><h4><ins>Traceroute:</ins></h4></li>
